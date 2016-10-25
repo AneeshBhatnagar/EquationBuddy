@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/reportBug" android:checkable="false" android:title="@string/menuReport"></item>
+    <item android:id="@+id/email" android:title="@string/menuSend"></item>
+    <item android:id="@+id/exit" android:title="@string/menuExit"></item>
+    
+
+</menu>

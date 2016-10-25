@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Equation Buddy</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Quad">Quadratic Equation</string>
+    <string name="Linear2">Linear Equation (2 variables)</string>
+    <string name="Linear3">Linear Equation (3 variables)</string>
+    <string name="MainQues">What would you like to solve?</string>
+    <string name="button">Solve</string>
+    <string name="QuadMain">The equation is of the form:</string>
+    <string name="QuadQues">Enter the a, b and c coefficients of the Quadratic Equation</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    <string name="d">d</string>
+    <string name="solve">Solve</string>
+    <string name="QuadHead">Quadratic Equation Solver</string>
+    <string name="LinearHead2">2 Variable Linear Equation Solver</string>
+    <string name="Linear2Ques">Enter the coefficients for the 2 variable linear equation:</string>
+    <string name="LinearQues3">Enter the coefficients for the 3 variable linear equation:</string>
+    <string name="LinearHead3">3 Variable Linear Equation Solver</string>
+    <string name="SplashDesc">Splash Screen Logo</string>
+    <string name="menuReport">Report a Bug</string>
+    <string name="menuSend">Email the Developer</string>
+    <string name="menuExit">Exit</string>
+   
+
+</resources>

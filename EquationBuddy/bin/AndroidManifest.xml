@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.slashcoding.equationbuddy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Aneesh" >
+        <activity
+            android:name="com.slashcoding.equationbuddy.Splash"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.slashcoding.equationbuddy.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.slashcoding.equationbuddy.START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.slashcoding.equationbuddy.Quad"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.slashcoding.equationbuddy.Line2"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.slashcoding.equationbuddy.Line3"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
